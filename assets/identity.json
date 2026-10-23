@@ -1,0 +1,111 @@
+{
+  "note": "Byte identities from the 2026-10-01 best-run archive; not new experimental results.",
+  "files": [
+    {
+      "path": "arxiv/train.bin",
+      "bytes": 508291988,
+      "sha256": "1e55c66ea82e0c282fe880cf9619174a9fba9dbfeafd03cad11159fdca5fd501"
+    },
+    {
+      "path": "arxiv/val.bin",
+      "bytes": 386768,
+      "sha256": "504a8d99f7c66cbfa74d45663388d5152c3ab638b4965d8860b447b445931935"
+    },
+    {
+      "path": "arxiv/test.bin",
+      "bytes": 346032,
+      "sha256": "51217fa74de850510e9ca6b25ae035f97d77461ec1a56e200b418d61b9102fdf"
+    },
+    {
+      "path": "book/train.bin",
+      "bytes": 437108338,
+      "sha256": "47890929c1618461d83ba30fdae85bbaedeed812d9ddf9cc4c4c797f37baac07"
+    },
+    {
+      "path": "book/val.bin",
+      "bytes": 137950,
+      "sha256": "c3e38f4a930562e893363d2144dbdba4bf7d4bfe22769a744a530b17dcf0afcb"
+    },
+    {
+      "path": "book/test.bin",
+      "bytes": 78292,
+      "sha256": "d79c738cfb2970845505ad6d1d64a17ea088dafe8c2d01bce281c6fdc9d87618"
+    },
+    {
+      "path": "c4/train.bin",
+      "bytes": 2998988240,
+      "sha256": "48f87d01fbad7c54c6e888457b50b88c0d5d5b382e4cd32fd17d0935974e7a1c"
+    },
+    {
+      "path": "c4/val.bin",
+      "bytes": 2580696,
+      "sha256": "ae0212070d3961d9cf2f65cef13876511910800ba809963695d1d50bb5d77402"
+    },
+    {
+      "path": "c4/test.bin",
+      "bytes": 2613742,
+      "sha256": "bbc15ffa230f81eb9f0699d61c3ca1a9ec190dbcc2c8a1ec731926279d7224b7"
+    },
+    {
+      "path": "cc/train.bin",
+      "bytes": 5863492686,
+      "sha256": "702edc83ea4b7be244ebd04cc21adfa2d366d956f3372ee33b85534949bc32ce"
+    },
+    {
+      "path": "cc/val.bin",
+      "bytes": 5077006,
+      "sha256": "9b86b645c8ae9be9fa519109080d677a5466d5b578d019260155eb32184a5d1e"
+    },
+    {
+      "path": "cc/test.bin",
+      "bytes": 5268040,
+      "sha256": "4e57a3576c9a42e1ef47ac66510310756384289cc9a907d34045bacfa64426e1"
+    },
+    {
+      "path": "github/train.bin",
+      "bytes": 602264500,
+      "sha256": "7a469925791bef8bff4a94bf84b57979f6bcd53d2a91498626e9127c53facd8c"
+    },
+    {
+      "path": "github/val.bin",
+      "bytes": 411082,
+      "sha256": "45685601fb8718b08cf60122c55aca1d378116254dea2b4b156b214b187324d7"
+    },
+    {
+      "path": "github/test.bin",
+      "bytes": 329726,
+      "sha256": "6105a5608b4d1cbda33309ae41d71e2f8bb1f94fcb45326bbf0f9f2f5a8d12f7"
+    },
+    {
+      "path": "stackexchange/train.bin",
+      "bytes": 378494494,
+      "sha256": "207225a7b6c32d649b9ec528231ff14a056ee180dbfc8dcea59af7ad152fb8b3"
+    },
+    {
+      "path": "stackexchange/val.bin",
+      "bytes": 321406,
+      "sha256": "3c08c69de3308d2fc2686b11aab8efeaa82a8cd3ad51a0e1f5635faa2ac15e13"
+    },
+    {
+      "path": "stackexchange/test.bin",
+      "bytes": 338132,
+      "sha256": "80dd39cef90a60cd4c90a44c7857f40a890187090ba33a884c6a12f7dd020760"
+    },
+    {
+      "path": "wikipedia/train.bin",
+      "bytes": 448173246,
+      "sha256": "fc238e522266d6fadc77919c87e14d73b407be0e3a3db8e740bde0788aec28d9"
+    },
+    {
+      "path": "wikipedia/val.bin",
+      "bytes": 406926,
+      "sha256": "9211e9dbf7e572b702749a67dcadcae40282c24fb1e39f405d2ddf9209214fa0"
+    },
+    {
+      "path": "wikipedia/test.bin",
+      "bytes": 358854,
+      "sha256": "8a8bff0f51f022b893f96a10d1efd8d18668d8d7b2a66a437b9fb04554b19577"
+    }
+  ],
+  "model_config_sha256": "76eb275107220e450d31258f792a2efcbee109d8b62ae0088260057dec06362f"
+}

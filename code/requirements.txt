@@ -1,0 +1,5 @@
+torch==2.2.1
+transformers==4.45.2
+numpy==1.24.3
+tokenizers==0.20.3
+ghostsuite @ git+https://github.com/Jiachen-T-Wang/GhostSuite.git@v0.5

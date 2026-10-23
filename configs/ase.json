@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "name": "ase",
+  "domains": [
+    "arxiv",
+    "stackexchange"
+  ],
+  "seed": 0,
+  "training": {
+    "batch_size": 128,
+    "sequence_length": 2048,
+    "max_steps": 5000,
+    "learning_rate": 0.0005,
+    "warmup_steps": 500,
+    "initial_learning_rate": 1e-07,
+    "final_learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "adam_betas": [
+      0.9,
+      0.999
+    ],
+    "adam_epsilon": 1e-08,
+    "max_grad_norm": 1.0,
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "pad_token_id": 0,
+    "eval_batch_size": 8
+  },
+  "probe": {
+    "rounds": 4,
+    "steps": 4,
+    "window_steps": 132,
+    "one_hot_factor": 0.625,
+    "use_history": true
+  },
+  "diagnosis": {
+    "window_steps": 100,
+    "block_steps": 20,
+    "history_blocks": 6,
+    "recent_blocks": 2,
+    "history_decay": 0.7071067811865476,
+    "clip": 1.0,
+    "probe_norm_floor": 1e-08,
+    "root_scale_floor": 1e-06,
+    "coverage_floor": 0.1,
+    "min_effective_count": 32.0,
+    "base_floor": 0.0001,
+    "mean_coefficient": 1.0,
+    "block_coefficient": 0.5,
+    "drift_coefficient": 0.5,
+    "initial_calibration": 0.2,
+    "calibration_step": 1.0,
+    "target_joint_error": 0.1,
+    "audit_failure_budget": 0.05
+  },
+  "control": {
+    "eta": 10.0,
+    "mixer_eta": 0.01,
+    "epsilon": 0.1,
+    "delta": 0.01,
+    "budget": 16
+  },
+  "target": {
+    "sequences_per_domain": 1,
+    "seed_offset": 1729,
+    "validation_fraction": 0.8,
+    "refresh_every_step": true
+  },
+  "historical": {
+    "granmix_tag": "formal_ase_full_calibrated_seed0",
+    "uniform_tag": "formal_ase_uniform_seed0",
+    "reference_only_not_rewrite_results": true,
+    "granmix_test_ppl": 16.013422743804515,
+    "uniform_test_ppl": 16.46974889089812,
+    "paired_delta": -0.4563261470936055,
+    "actual_steps": 5000,
+    "probe_updates": 640,
+    "normal_updates": 4360,
+    "initial_model_sha256": "782ccb0ab429a588f671932c0147b21b8998bee51822a4dd1def8362f5c40a2c",
+    "recipe_file": "formal_recipes/ase.json",
+    "recipe_sha256": "4b32deaad6001f09d0e83bd76fc4670214e6942186aace13a93e53d330107516"
+  }
+}
